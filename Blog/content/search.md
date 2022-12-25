@@ -1,11 +1,8 @@
 ---
 title: "Search" # in any language you want
 layout: "search" # is necessary
-# url: "/archive"
+#url: "/search/"
 # description: "Description for Search"
 summary: "search"
-placeholder: "placeholder text in search input box"
-# To hide a particular page from being searched, add it in post’s frontmatter 
-# ---
-# searchHidden: true
+placeholder: "Ex. Linux"
 ---
