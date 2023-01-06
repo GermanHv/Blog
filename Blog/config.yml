@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Blog
-  description: "Knowledge blog"
-  keywords: [Blog, Portfolio, Knowledge, Programming]
-  author: Alev GHv
+  title: AlevGHv
+  description: "This is my blog, I'm a student of informatics engineering at IPN, MX. I created this blog for academic and educational purposes if you read something I hope you like it."
+  keywords: [Blog, Portfolio, Programming, Backend, FullStack]
+  author: Alev GHV
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -53,15 +53,15 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "Alev Hv"
+    icon: "covers/cloud.png"
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Blog
-    subtitle: "Alev GermánHv"
+    title: "My Blog \u2728 "
+    subtitle: "This is the blog of **Alev G. Horta**. I'm a student of informatics engineering at IPN, MX. I created this blog for academic and educational purposes if you read something I hope you like it."
     imageUrl: "https://avatars.githubusercontent.com/u/65383128?v=4"
     imageWidth: 150
     imageHeight: 150
@@ -69,8 +69,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Website
+        url: https://example.org
 
   # home-info mode
   homeInfoParams:
@@ -80,8 +80,8 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/hv_german"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/germanhv/"
     - name: github
       url: "https://github.com/GermanHv"
 
@@ -101,7 +101,7 @@ params:
     responsiveImages: true #Para reducir el tiempo de generación y el tamaño del sitio, puede deshabilitar esta característica usando
 
   editPost:
-    URL: "https://github.com/GermanHv/Blog/content"
+    URL: "https://github.com/GermanHv/Blog/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -119,38 +119,30 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: Archives
-      name: Archives
-      url: /archives/
-      weight: 30
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 40
     - identifier: posts
       name: Posts
       url: /posts/ 
       weight: 1
-    - identifier: baseof
-      name: baseof
-      url: /baseof/ 
-      weight: 5
-    - identifier: list
-      name: list
-      url: /list/ 
-      weight: 4
     - identifier: search
       name: Search
       url: /search/ 
       weight: 2
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 3
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 4
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 5
+    - identifier: example
+      name: Website
+      url: https://example.org
+      weight: 6
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
